@@ -22,4 +22,4 @@ else
 Disclaimer
 ----------
 
-Partly based on [tvrenamr](https://github.com/ghickman/tvrenamr).
+Partly based on [tvnamer](https://github.com/dbr/tvnamer)
