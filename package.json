@@ -1,0 +1,33 @@
+{
+  "name": "nzb-name-parser",
+  "description": "Parse NZB filenames into something more readable",
+  "author": {
+    "name" : "Robert Klep",
+    "email" : "robert.klep@gmail.com"
+  },
+  "keywords": [ "nzb", "usenet" ],
+  "version": "0.1.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robertklep/node-sabnzbd.git"
+  },
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "homepage" : "https://github.com/robertklep/node-sabnzbd",
+  "dependencies": {
+    "xregexp" : "2.0.x",
+    "coffee-script" : "1.3.x"
+  },
+  "bugs": {
+    "email": "robert.klep+node-sabnzbd@gmail.com",
+    "url": "https://github.com/robertklep/node-sabnzbd/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prestart"  : "coffee -c *.coffee",
+    "start"     : "node test.js",
+    "prepublish": "coffee -o lib -c src/*.coffee"
+  }
+}
